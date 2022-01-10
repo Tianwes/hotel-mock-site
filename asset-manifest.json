@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/restright-resort/static/css/main.073c9b0a.css",
+    "main.js": "/restright-resort/static/js/main.8abb3eab.js",
+    "static/js/787.94d978b5.chunk.js": "/restright-resort/static/js/787.94d978b5.chunk.js",
+    "static/media/logo.svg": "/restright-resort/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/restright-resort/index.html",
+    "main.073c9b0a.css.map": "/restright-resort/static/css/main.073c9b0a.css.map",
+    "main.8abb3eab.js.map": "/restright-resort/static/js/main.8abb3eab.js.map",
+    "787.94d978b5.chunk.js.map": "/restright-resort/static/js/787.94d978b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8abb3eab.js"
+  ]
+}
