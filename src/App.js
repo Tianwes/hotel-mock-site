@@ -1,5 +1,6 @@
 import './App.css';
-import MyNavbar from "./Nav";
+import MyNavbar from './Nav';
+import MyMain from './MyMain';
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
         {/* would I then put NAME of thing I imported so like the landing page div? the put the next div under this */}
       {/* </div> */}
       < MyNavbar/>
-      <h1>Beep</h1>
+      < MyMain />
+
     </div>
   );
 }

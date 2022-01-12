@@ -1,0 +1,96 @@
+.landingPageContainer {
+    background-image: url("./images-restrightResort/homepage-hotel-room-img.jpg");
+    background-size: cover;
+    height: 100vh;
+    top: -56px;
+    position: relative;
+}
+.landingRow {
+    height: inherit;
+}
+/* .landingCol {
+    height: inherit;
+} */
+.landingCol-glass {
+    position: relative;
+    height: 100vh;
+    /* top: calc(50% - 175px); */
+    /* left: calc(50% - 125px); */
+    border-radius: 2px;
+    overflow: hidden;
+    background: inherit;
+}
+.landingCol-glass{
+    display: flex;
+    justify-content: end;
+    height: 100vh;
+    box-shadow: 1px 0px 7px 3px rgb(0 0 0 / 27%);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(3px);
+    padding-right: 3px;
+}
+.brand {
+    position: relative;
+    top: 253px;
+    color: white;
+    font-size: 8rem;
+}
+.landingCol-opaque {
+    background: #503736;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3px;
+}
+.rest-text {
+    animation-name: slideDown;
+    animation-duration: 4s;
+}
+.right-text {
+    animation-name: slideUp;
+    animation-duration: 4s;
+}
+.slogan {
+    color: white;
+    font-size: 2rem;
+    top: 241px;
+    width: 25%;
+    display: inline-flex;
+    position: absolute;
+    place-content: center;
+    animation-name: sloganFadeIn;
+    animation-duration: 10s;
+    
+}
+
+.slogan-bottom {
+    padding-top: 6.3em;
+}
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+      }
+      100% {
+        opacity: 1;
+        transform: none;
+      }
+  }
+  @keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+      }
+      100% {
+        opacity: 1;
+        transform: none;
+      }
+  }
+  @keyframes sloganFadeIn {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+        transform: none;
+      }
+  }
